@@ -5,9 +5,10 @@ There forming algoritm structure:
 ```mermaid
 graph TD;   
     StartPoint-->Landscapeform;
-    Landscapeform-->RiverMake;
-    RiverMake-->ForrestMake;
-    ForrestMake-->MakeHumanInfrastructure;
-    MakeHumanInfrastructure-->ConnectionInfrastructure;
-    ConnectionInfrastructure-->RealisePicture;
+    Landscapeform-->LocalLandscape;
+    LocalLandscape-->HumanInfrastructure;
+    HumanInfrastructure-->RealisePicture;
 ```
+1) In Landscapeform we will make relief segment. Mountain, fields, lakes and seas.
+2) In LocalLandscape we fill in relief segments with local objects. Rivers and forrests are included.
+3) In HumanInfrastructure we will man all human infrustructure. There static cities, villages and local houses will be connected with roads and bridges.
