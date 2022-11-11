@@ -7,6 +7,7 @@ classDiagram
     class Point
     class Border
     class Segment
+    <<struct>> Point
     <<abstract>> Border
     <<abstract>> Segment
     Point : double x
