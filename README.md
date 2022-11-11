@@ -4,7 +4,7 @@ Our idea will get on generate multipoligons with some roles. Maybe in little seg
 There forming algoritm structure:
 ```mermaid
 graph TD;   
-    StartPoint-->Lanscapeform;
+    StartPoint-->Landscapeform;
     Landscapeform-->RiverMake;
     RiverMake-->ForrestMake;
     ForrestMake-->MakeHumanInfrastructure;
