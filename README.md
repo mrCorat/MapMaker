@@ -4,8 +4,8 @@ Our idea will get on generate multipoligons with some roles. Maybe in little seg
 There forming algoritm structure:
 ```mermaid
 stateDiagram-v2;   
-    [*] --> Lanscape form;
-    Landscape form --> RiverMake;
+    [*] --> Lanscapeform;
+    Landscapeform --> RiverMake;
     RiverMake --> ForrestMake;
     ForrestMake -- > MakeHumanInfrastructure;
     MakeHumanInfrastructure --> ConnectionInfrastructure;
