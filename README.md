@@ -9,5 +9,5 @@ stateDiagram
     RiverMake --> ForrestMake
     ForrestMake -- > MakeHumanInfrastructure
     MakeHumanInfrastructure --> ConnectionInfrastructure
-    ConnectionInfrastructure --> PaintResult
+    ConnectionInfrastructure --> [*]
 '''
