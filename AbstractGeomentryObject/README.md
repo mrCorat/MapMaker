@@ -4,10 +4,10 @@ There we can say, that simple mathematical abstraction edge is simple line, but 
 
 ```mermaid
 classDiagram   
-<<struct>>Point : double x
-<<struct>>Point : double y
-<<abstract>>Border : Point[2] linepoints
-<<abstract>>Segment : Borders[*]
-<<struct>>Point *-- <<abstract>>Border
-<<abstract>>Border *-- <<abstract>>Segment
+Point : double x
+Point : double y
+Border : Point[2] linepoints
+Segment : Borders[*]
+Point *-- Border
+Border *-- Segment
 ```
