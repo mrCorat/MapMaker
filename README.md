@@ -4,10 +4,10 @@ Our idea will get on generate multipoligons with some roles. Maybe in little seg
 There forming algoritm structure:
 ```mermaid
 graph TD;   
-    [*] --> Lanscapeform;
-    Landscapeform --> RiverMake;
-    RiverMake --> ForrestMake;
-    ForrestMake -- > MakeHumanInfrastructure;
-    MakeHumanInfrastructure --> ConnectionInfrastructure;
-    ConnectionInfrastructure --> [*];
+    [*]-->Lanscapeform;
+    Landscapeform-->RiverMake;
+    RiverMake-->ForrestMake;
+    ForrestMake-->MakeHumanInfrastructure;
+    MakeHumanInfrastructure-->ConnectionInfrastructure;
+    ConnectionInfrastructure-->[*];
 ```
